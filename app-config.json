@@ -1,0 +1,21 @@
+{
+    "name": "Deployd Seed",
+    "middleware": {
+        "urls": {
+            "development": {
+                "client": "http://localhost:5000/#/",
+                "server": "http://localhost:5000",
+                "resetPassword": "reset-password?rpswd=true",
+                "verifyEmailFailed": "login?ev=0",
+                "verifiedEmailAlready": "login?ev=1",
+                "verifyEmailSuccess": "login?ev=2"
+            }
+        },
+        "sparkpost": {
+            "sandbox": false,
+            "key": "5f5ab789ba8f87b9e26eaff9c9e0802f34d731cd",
+            "fromAddress": "admin@email.com"
+        }
+    },
+    "maxLoginAttempts": 3
+}

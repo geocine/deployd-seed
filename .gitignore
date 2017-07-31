@@ -1,0 +1,5 @@
+.dpd/
+.vscode/
+node_modules/
+public/
+data/

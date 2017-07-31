@@ -1,0 +1,101 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"firstName": {
+			"name": "firstName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "firstName",
+			"order": 0
+		},
+		"middleName": {
+			"name": "middleName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "middleName",
+			"order": 1
+		},
+		"lastName": {
+			"name": "lastName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "lastName",
+			"order": 2
+		},
+		"type": {
+			"name": "type",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "type",
+			"order": 3
+		},
+		"email": {
+			"name": "email",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "email",
+			"order": 4
+		},
+		"blocked": {
+			"name": "blocked",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "blocked",
+			"order": 5
+		},
+		"verified": {
+			"name": "verified",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "verified",
+			"order": 6
+		},
+		"verificationToken": {
+			"name": "verificationToken",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "verificationToken",
+			"order": 7
+		},
+		"passwordToken": {
+			"name": "passwordToken",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "passwordToken",
+			"order": 8
+		},
+		"loginAttempts": {
+			"name": "loginAttempts",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "loginAttempts",
+			"order": 9
+		},
+		"lastAccessTime": {
+			"name": "lastAccessTime",
+			"type": "date",
+			"typeLabel": "date",
+			"required": false,
+			"id": "lastAccessTime",
+			"order": 10
+		},
+		"lattLoginTime": {
+			"name": "lattLoginTime",
+			"type": "date",
+			"typeLabel": "date",
+			"required": false,
+			"id": "lattLoginTime",
+			"order": 11
+		}
+	}
+}

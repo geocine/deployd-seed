@@ -1,0 +1,23 @@
+{
+  "name": "deployd-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deployd": "git://github.com/geocine/deployd.git#custom",
+    "dpd-event-callback": "0.0.2",
+    "dpd-event-extension": "0.0.3",
+    "dpd-router-event": "^1.0.5",
+    "dpd-router-middleware": "^1.0.0",
+    "dpd-template": "0.0.5",
+    "lodash": "^4.17.4",
+    "sparkpost": "^2.1.2",
+    "string-hash": "^1.1.3"
+  }
+}
