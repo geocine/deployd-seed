@@ -1,6 +1,6 @@
 # deployd-seed
 
-deployd app seed with:
+contains the following:
 - user authentication via JWT
 - user registration
 - email verification
@@ -14,6 +14,4 @@ deployd app seed with:
 
     npm start
 
-open http://localhost:5000
-
-> Note: this is only good for prototyping as dependencies are no longer updated. Most of them are forked from unmaintained projects
+Dashboard: http://localhost:5000/dashboard/
