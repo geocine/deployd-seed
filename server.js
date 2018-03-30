@@ -1,4 +1,4 @@
-require('dpd-router-middleware')(require('deployd/lib/router'), 'middleware');
+require('./libraries/dpd-router-middleware')(require('deployd/lib/router'), 'middleware');
 
 // production.js
 var deployd = require('deployd');
