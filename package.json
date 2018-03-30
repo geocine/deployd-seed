@@ -11,10 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "deployd": "git://github.com/geocine/deployd.git#custom",
+    "dpd-clientlib": "^1.0.0",
+    "dpd-dashboard": "^1.1.3",
     "dpd-event-callback": "0.0.2",
     "dpd-event-extension": "0.0.3",
-    "dpd-router-middleware": "git://github.com/ezra-obiwale/dpd-router-middleware.git",
     "dpd-router-event": "git://github.com/ezra-obiwale/dpd-router-event.git#v1.0.7",
+    "dpd-router-middleware": "git://github.com/ezra-obiwale/dpd-router-middleware.git",
     "dpd-template": "0.0.5",
     "lodash": "^4.17.4",
     "sparkpost": "^2.1.2",
