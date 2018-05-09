@@ -19,6 +19,7 @@
     "dpd-router-middleware": "git://github.com/ezra-obiwale/dpd-router-middleware.git",
     "dpd-template": "0.0.5",
     "ejs": "^2.5.8",
+    "hoek": "^5.0.3",
     "lodash": "^4.17.4",
     "sparkpost": "^2.1.2",
     "string-hash": "^1.1.3"
